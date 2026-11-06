@@ -44,3 +44,6 @@ next-env.d.ts
 local-docs/
 
 ```
+# Local SQLite database (create with prisma migrate dev / db seed)
+src/backend/*.db
+src/backend/*.db-journal
